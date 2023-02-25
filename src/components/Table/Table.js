@@ -61,7 +61,7 @@ const Table = () => {
               />
             </th>
             <th>
-              <button className="filter">Filter</button>
+              <button className="filter"><i class="fa-light fa-filter"></i>Filter</button>
             </th>
             <th>
               <button className="paymentType">+Payment</button>
@@ -103,7 +103,7 @@ const Table = () => {
                 ) : (
                   <button className="unposted"
                     onClick={() => handleButtonClick(index)}
-                    style={{ backgroundColor: "yellow",color:"black" }}
+                    style={{ backgroundColor: "gold",color:"black" }}
                   >
                     Unposted
                   </button>
