@@ -1,0 +1,30 @@
+.footer1 {
+    background: rgb(168, 164, 164);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .footer1 p {
+    margin: 0 10px;
+  }
+  
+  .footer1 div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .footer1 {
+      justify-content: center;
+    }
+    
+    .footer1 div {
+      justify-content: center;
+      margin-top: 20px;
+    }
+  }

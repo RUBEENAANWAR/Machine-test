@@ -1,0 +1,84 @@
+/* Base table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 20px;
+  }
+  
+  thead {
+    background-color: #ddd;
+  }
+  
+  th {
+    padding: 10px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  tr:last-child td {
+    border-bottom: none;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #008CBA;
+    color: #fff;
+    cursor: pointer;
+  }
+/*   
+  button:hover {
+    background-color: #005580;
+  }
+   */
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    table {
+      font-size: 12px;
+    }
+    th, td {
+      padding: 5px;
+    }
+    
+    /* Align search bar to the right for smaller screens */
+    .search {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      text-align: right;
+      margin-bottom: 10px;
+    }
+  }
+
+  .payment{
+    color:green;
+    font-size: 25px;
+  }
+
+  .posted{
+    backgroundColor: yellow;
+    color: black;
+  }
+
+  .unposted{
+    backgroundColor: darkgreen;
+
+  }
+
+  .paymentType{
+    background-color: green;
+    border-radius:6px ;
+  }
+
+  .filter{
+    background-color: grey;
+    border-radius:6px ;
+  }
